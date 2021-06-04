@@ -7,5 +7,7 @@
     <color name="StatusBarBLACK">#1D1C1C</color>
     <color name="StatusBarLIGHT">#343232</color>
     <color name="NavigationBarLIGHT">#343232</color>
+    <color name="appbar">#FF4747</color>
+
 
 </resources>

@@ -3,6 +3,7 @@ package com.example.necflis;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageButton;
@@ -21,6 +22,7 @@ public class busqueda extends AppCompatActivity {
        imageButton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
+               Log.d("mensaje","Hola");
                BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(
                        busqueda.this, R.style.BottomSheetDialogTheme
                );
@@ -29,6 +31,7 @@ public class busqueda extends AppCompatActivity {
                                R.layout.layout_buttom_sheet,
                                (LinearLayout)findViewById(R.id.buttonSheetContainer)
                        );
+               bottomSheetDialog.show();
            }
        });
     }

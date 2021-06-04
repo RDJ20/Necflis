@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         List<CategoryItem> categoryItemList = new ArrayList<>();
-        categoryItemList.add(new CategoryItem(1, R.drawable.hollywood1));
-        categoryItemList.add(new CategoryItem(1, R.drawable.hollywood2));
-        categoryItemList.add(new CategoryItem(1, R.drawable.hollywood3));
+        categoryItemList.add(new CategoryItem(1, R.drawable.kimtesu));
+        categoryItemList.add(new CategoryItem(1, R.drawable.vc));
+        categoryItemList.add(new CategoryItem(1, R.drawable.invincible));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood4));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood5));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood6));
@@ -69,11 +69,11 @@ public class MainActivity extends AppCompatActivity {
         categoryItemList5.add(new CategoryItem(1, R.drawable.bestofoscar6));
 
         List<AllCategory> allCategoryList = new ArrayList<>();
-        allCategoryList.add(new AllCategory("Hollywood", categoryItemList));
-        allCategoryList.add(new AllCategory("Best of Oscars", categoryItemList2 ));
-        allCategoryList.add(new AllCategory("Movies Dubbed in Hindi", categoryItemList3));
-        allCategoryList.add(new AllCategory("Category 4th", categoryItemList4));
-        allCategoryList.add(new AllCategory("Category 5th",categoryItemList5));
+        allCategoryList.add(new AllCategory("Recomendaciones", categoryItemList));
+        allCategoryList.add(new AllCategory("Para ti <3", categoryItemList2 ));
+        allCategoryList.add(new AllCategory("Tendencias", categoryItemList3));
+        allCategoryList.add(new AllCategory("Anime", categoryItemList4));
+        allCategoryList.add(new AllCategory("Comedia",categoryItemList5));
 
         setMainCategoryRecycler(allCategoryList);
     }
