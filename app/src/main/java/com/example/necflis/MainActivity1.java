@@ -16,7 +16,7 @@ public class MainActivity1 extends AppCompatActivity {
     }
 
     public void Siguiente(View view){
-        Intent siguiente = new Intent(this, MainActivity.class);
+        Intent siguiente = new Intent(this, emailcontrasena.class);
         startActivity(siguiente);
     }
 }
