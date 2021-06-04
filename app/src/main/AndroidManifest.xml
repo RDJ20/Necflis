@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".main"
-            android:theme="@style/inicioSesion"
-            ></activity>
+        <activity android:name=".MainActivity" android:theme="@style/inicioSesion" ></activity>
         <activity
             android:name=".cuenta"
             android:theme="@style/inicioSesion" />
@@ -48,7 +45,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity1"
             android:theme="@style/inicioSesion" />
     </application>
 
