@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.necflis.adapter.MainRecyclerAdapter;
 import com.example.necflis.model.AllCategory;
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         List<CategoryItem> categoryItemList = new ArrayList<>();
         categoryItemList.add(new CategoryItem(1, R.drawable.kimtesu));
-        categoryItemList.add(new CategoryItem(1, R.drawable.vc));
+        categoryItemList.add(new CategoryItem(1, R.drawable.hollywood2));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood3));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood4));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood5));
@@ -87,4 +89,18 @@ public class MainActivity extends AppCompatActivity {
         mainCategoryRecycler.setAdapter(mainRecyclerAdapter);
 
     }
+    public void busqueda(View view){
+        Intent siguiente = new Intent(this, busqueda.class);
+        startActivity(siguiente);
+    }
+    public void usuario(View view){
+        Intent siguiente = new Intent(this, cuenta.class);
+        startActivity(siguiente);
+    }
+    public void casa(View view){
+        Intent siguiente = new Intent(this, MainActivity.class);
+        startActivity(siguiente);
+    }
+
+
 }
