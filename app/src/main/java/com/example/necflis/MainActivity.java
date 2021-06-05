@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         List<CategoryItem> categoryItemList = new ArrayList<>();
         categoryItemList.add(new CategoryItem(1, R.drawable.kimtesu));
         categoryItemList.add(new CategoryItem(1, R.drawable.vc));
-        categoryItemList.add(new CategoryItem(1, R.drawable.invincible));
+        categoryItemList.add(new CategoryItem(1, R.drawable.hollywood3));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood4));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood5));
         categoryItemList.add(new CategoryItem(1, R.drawable.hollywood6));
