@@ -1,13 +1,32 @@
 package com.example.necflis.model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
+
 public class Clientes {
 
+    @SerializedName("id")
+    @Expose
     private int id;
+    @SerializedName("nombre")
+    @Expose
     private String nombre;
+    @SerializedName("edad")
+    @Expose
     private int edad;
+    @SerializedName("sexo")
+    @Expose
     private String sexo;
+    @SerializedName("direccion")
+    @Expose
     private String direccion;
+    @SerializedName("fecha")
+    @Expose
     private String fecha;
+
+
 
     public int getId() {
         return id;

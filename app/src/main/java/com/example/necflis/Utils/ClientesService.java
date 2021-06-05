@@ -1,14 +1,20 @@
 package com.example.necflis.Utils;
 
 
+import com.example.necflis.model.Clientes;
 import com.example.necflis.model.ClientesRespuesta;
+import com.example.necflis.model.Personas;
+
+import java.util.List;
 
 import retrofit2.Call;
+import retrofit2.Callback;
 import retrofit2.http.GET;
 
 public interface ClientesService {
-    @GET("cliente")
-    Call<ClientesRespuesta> obtenerListaClientes();
+    @GET("clientes")
+    Call<List<Clientes>> obtenerListaClientes();
+
 
 
 }
