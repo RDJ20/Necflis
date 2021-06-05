@@ -17,7 +17,7 @@ public class MainActivity1 extends AppCompatActivity {
     }
 
     public void Siguiente(View view){
-        Intent siguiente = new Intent(this, busqueda.class);
+        Intent siguiente = new Intent(this, MainoActivity.class);
         Log.d("hola"," xd");
         startActivity(siguiente);
     }
