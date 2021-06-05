@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity1 extends AppCompatActivity {
@@ -16,7 +17,8 @@ public class MainActivity1 extends AppCompatActivity {
     }
 
     public void Siguiente(View view){
-        Intent siguiente = new Intent(this, emailcontrasena.class);
+        Intent siguiente = new Intent(this, busqueda.class);
+        Log.d("hola"," xd");
         startActivity(siguiente);
     }
 }
