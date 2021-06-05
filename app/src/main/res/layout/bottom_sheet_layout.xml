@@ -6,61 +6,42 @@
     android:padding="10dp"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Choose"
-
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="8dp">
-
-    </TextView>
-
     <LinearLayout
         android:id="@+id/getLink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#1c1d1d"
+        android:onClick="peli"
         android:orientation="horizontal"
-        android:padding="16dp"
-        android:background="#1c1d1d">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/link" />
+        android:padding="16dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:text="Get Link"
-            android:textColor="#FFFFFF"
             android:fontFamily="@font/gotham"
+            android:text="Peliculas"
+            android:textColor="#FFFFFF"
 
             android:textSize="16sp" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/share"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="#1c1d1d"
+        android:onClick="serie"
+        android:orientation="horizontal"
         android:padding="16dp">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/share" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:text="Share"
-            android:textColor="#FFFFFF"
             android:fontFamily="@font/gotham"
+            android:text="Series"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

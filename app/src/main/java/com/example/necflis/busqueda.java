@@ -2,6 +2,7 @@ package com.example.necflis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -52,4 +53,29 @@ private BottomSheetDialog bottomSheetDialog;
 
 
     }
+
+
+    public void busqueda(View view){
+        Intent siguiente = new Intent(this, busqueda.class);
+        startActivity(siguiente);
+    }
+    public void usuario(View view){
+        Intent siguiente = new Intent(this, cuenta.class);
+        startActivity(siguiente);
+    }
+    public void casa(View view){
+        Intent siguiente = new Intent(this, MainActivity.class);
+        startActivity(siguiente);
+    }
+
+    public void peliculas(View view){
+        Intent siguiente = new Intent(this, peliculas.class);
+        startActivity(siguiente);
+    }
+    public void series(View view){
+        Intent siguiente = new Intent(this, series.class);
+        startActivity(siguiente);
+    }
+
+
 }

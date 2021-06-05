@@ -101,6 +101,13 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente = new Intent(this, MainActivity.class);
         startActivity(siguiente);
     }
-
+    public void peli(View view){
+        Intent siguiente = new Intent(this, peliculas.class);
+        startActivity(siguiente);
+    }
+    public void serie(View view){
+        Intent siguiente = new Intent(this, series.class);
+        startActivity(siguiente);
+    }
 
 }
